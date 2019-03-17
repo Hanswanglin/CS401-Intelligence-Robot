@@ -36,5 +36,7 @@ Session.vim
 # Auto-generated tag files
 tags
 
+# Mac attached file
+.DS_Store
 
 Server/\.idea/
