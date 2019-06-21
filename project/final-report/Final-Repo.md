@@ -84,7 +84,7 @@ An **ArUco** marker is a synthetic square marker composed by a wide black border
 
 Some examples of **ArUco** markers:
 
-![image-1](/Users/hans/Codes/CS401-Intelligence-Robot/project/final-report/picture/imag-1.png)
+![image-1](picture/imag-1.png)
 
 It must be noted that a marker can be found rotated in the environment, however, the detection process needs to be able to determine its original rotation, so that each corner is identified unequivocally. This is also done based on the binary codification.
 
@@ -113,11 +113,11 @@ The marker detection process is comprised by two main steps:
 
 Consider the following image:
 
-![image-2](/Users/hans/Codes/CS401-Intelligence-Robot/project/final-report/picture/image-2.png)
+![image-2](picture/image-2.png)
 
 These are the detected markers (in green):
 
-![image-3](/Users/hans/Codes/CS401-Intelligence-Robot/project/final-report/picture/image-3.png)
+![image-3](picture/image-3.png)
 
 ##### 3.1.3. Pose Estimation
 
@@ -137,11 +137,11 @@ At present, for not too big, not too many boxes of checkpoints, there are many p
 
 As shown below, no matter how the characters move, they can return to their original position without pushing the box. This is the same situation.
 
-![image-4](/Users/hans/Codes/CS401-Intelligence-Robot/project/final-report/picture/image-4.jpg)
+![image-4](picture/image-4.jpg)
 
 Again, as shown below, the two boxes swap positions, and the result is the same as that without moving boxes, so the same is true after sorting the box coordinates.
 
-![image-5](/Users/hans/Codes/CS401-Intelligence-Robot/project/final-report/picture/image-5.png)
+![image-5](picture/image-5.png)
 
 Then，we will introduce the data structure and the basic algorithm logic in this experiment.
 
